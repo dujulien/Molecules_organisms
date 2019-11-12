@@ -63,6 +63,11 @@ div.top-margin {
 	font-weight: bold;
 }
 
+.lead-title-sm{
+	font-size: 18pt;
+	font-weight: bold;
+}
+
 #title-show{
 	padding: 10rem 15rem 10rem 10rem;
 }
@@ -109,9 +114,32 @@ h5.card-title {
     background-color: #f8f9fa!important;
 }
 
-
 .btn-facebook {
     color: #fff;
     background-color: #3b5998;
     border-color: #3b5998;
+}
+
+div.descr {
+	padding-top: 8rem;
+	padding-bottom: 5rem;
+}
+
+.listing-panel {
+    border-style: solid;
+    border-color: #FFF;
+    border-width: 1px 0;
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+.sticky-listing-panel {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    max-height: inherit;
+    height: 66px;
 }
