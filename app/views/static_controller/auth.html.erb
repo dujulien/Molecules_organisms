@@ -1,0 +1,271 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-2 col-md-2 col-xl-2 bd-sidebar">  
+      <div class="row">
+        <div class="col-12">
+          <%= render "static_controller/menu" %>
+        </div>
+      </div>
+    </div>
+    <div class="col-9 col-md-9 col-xl-9 py-md-3 pl-md-5 bd-content" role="main">
+      <div class="top-margin">
+        <div class="row">
+
+<!--           SIGN IN FORM  -->
+          <div class="col-6">
+            <h4> Sign up form </h4>
+            <br/>
+            <div class="my-3 p-3 bg-grey rounded box-shadow">
+              <!-- Logo -->
+              <div class="text-center">
+                <a href="<%= documentation_auth_path %>" aria-label="Space">
+                  <img class="mb-3" src="https://s3-eu-west-1.amazonaws.com/tpd/logos/4bde3b280000640005068d7d/0x0.png" alt="Logo" width="60" height="60">
+                </a>
+              </div>
+              <!-- End Logo -->
+
+              <!-- Title -->
+              <div class="text-center mb-4">
+                <h1 class="h3 mb-0">Please sign up</h1>
+                <p>Fill out the form to get started.</p>
+              </div>
+              <!-- End Title -->
+              <br/>
+              <!-- First name textfield -->
+              <label class="sr-only" for="inlineFormInputGroupEmail">First name</label>
+              <div class="input-group mb-2 mr-sm-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text" style="width:2.3rem;">F</span></div>
+                </div>
+                <input type="text" class="form-control" id="inlineFormInputfirstname" placeholder="First Name">
+              </div>
+              <!-- End First name textfield -->
+              <!-- Last name textfield -->
+              <label class="sr-only" for="inlineFormInputGroupLastname">Last Name</label>
+              <div class="input-group mb-2 mr-sm-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text" style="width:2.3rem;">L</span></div>
+                </div>
+                <input type="text" class="form-control" id="inlineFormInputGroupLastname" placeholder="Last Name">
+              </div>
+              <!-- End Last name textfield -->
+              <!-- Description textfield -->
+              <label class="sr-only" for="inlineFormInputGroupDescription">Description</label>
+              <div class="input-group mb-2 mr-sm-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text" style="width:2.3rem;">T</span></div>
+                </div>
+                <textarea class="form-control" id="inlineFormInputGroupDescription" placeholder="Description"></textarea>
+              </div>
+              <!-- End Description textfield -->
+              <!-- Email textfield -->
+              <label class="sr-only" for="inlineFormInputGroupEmail">Email</label>
+              <div class="input-group mb-2 mr-sm-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text" style="width:2.3rem;">@</span></div>
+                </div>
+                <input type="text" class="form-control" id="inlineFormInputGroupEmail" placeholder="Email">
+              </div>
+              <!-- End Email textfield -->
+              <!-- Password field -->
+              <label class="sr-only" for="inlineFormInputPassword">Password</label>
+              <div class="input-group mb-2 mr-sm-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text" style="width:2.3rem;">#</div>
+                </div>
+                <input type="password" class="form-control" id="inlineFormInputPassword" placeholder="Password">
+              </div>
+              <!-- End Password field -->
+              <!-- Confirm Password field -->
+              <label class="sr-only" for="inlineFormInputPassword">Confirm Password</label>
+              <div class="input-group mb-2 mr-sm-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text" style="width:2.3rem;">#</div>
+                </div>
+                <input type="password" class="form-control" id="inlineFormInputPassword" placeholder="Confirm Password">
+              </div>
+              <!-- End Confirm Password field -->
+              <br/>
+              <!-- Submit button -->
+              <div class="mb-3">
+                <button type="submit" class="btn btn-block btn-primary">Signup</button>
+              </div>
+              <!-- End Submit button -->
+
+              <div class="text-center mb-3">
+                <p class="text-muted">Have an account? <a href="signin-simple.html">Signin</a></p>
+              </div>
+            </div>
+          </div>
+<!--         END SIGN IN FORM -->
+<br/>
+<!--           SIGN UP FORM  -->
+          <div class="col-6">
+            <h4> Sign in form </h4>
+            <br/>
+            <div class="my-3 p-3 bg-grey rounded box-shadow">
+              <!-- Logo -->
+              <div class="text-center">
+                <a href="<%= documentation_auth_path %>" aria-label="Space">
+                  <img class="mb-3" src="https://s3-eu-west-1.amazonaws.com/tpd/logos/4bde3b280000640005068d7d/0x0.png" alt="Logo" width="60" height="60">
+                </a>
+              </div>
+              <!-- End Logo -->
+
+              <!-- Title -->
+              <div class="text-center mb-4">
+                <h1 class="h3 mb-0">Please sign in</h1>
+                <p>Enter your email and your password to sign in.</p>
+              </div>
+              <!-- End Title -->
+              <br/>
+              <!-- Username textfield -->
+              <label class="sr-only" for="inlineFormInputGroupEmail">Email</label>
+              <div class="input-group mb-2 mr-sm-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text" style="width:2.3rem;">@</span></div>
+                </div>
+                <input type="text" class="form-control" id="inlineFormInputGroupEmail" placeholder="Email">
+              </div>
+                <!-- End Username textfield -->
+
+              <!-- Password field -->
+              <label class="sr-only" for="inlineFormInputPassword">Password</label>
+              <div class="input-group mb-2 mr-sm-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text" style="width:2.3rem;">#</div>
+                </div>
+                <input type="password" class="form-control" id="inlineFormInputPassword" placeholder="Password">
+              </div>
+              <!-- End Password field -->
+              <br/>
+              <!-- Submit button -->
+              <div class="mb-3">
+                <button type="submit" class="btn btn-block btn-primary">Signin</button>
+              </div>
+              <!-- End Submit button -->
+
+              <div class="text-center mb-3">
+                <p class="text-muted">Get started ! <a href="signin-simple.html">Signup</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+<!--         END SIGN UP FORM -->
+        <br/>
+        <br/>
+        <div class="row">
+
+<!--           FORGOT PASSWORD FORM  -->
+          <div class="col-6">
+            <h4> Sign in form </h4>
+                <br/>
+                <div class="my-3 p-3 bg-grey rounded box-shadow">
+                  <!-- Logo -->
+                  <div class="text-center">
+                    <a href="<%= documentation_auth_path %>" aria-label="Space">
+                      <img class="mb-3" src="https://s3-eu-west-1.amazonaws.com/tpd/logos/4bde3b280000640005068d7d/0x0.png" alt="Logo" width="60" height="60">
+                    </a>
+                  </div>
+                  <!-- End Logo -->
+
+                  <!-- Title -->
+                  <div class="text-center mb-4">
+                    <h1 class="h3 mb-0">Forgot password ?</h1>
+                    <br/>
+                    <p>We will send you a link to reset your password. Please enter your email.</p>
+                  </div>
+                  <!-- End Title -->
+                  <br/>
+                  <!-- Username textfield -->
+                  <label class="sr-only" for="inlineFormInputGroupEmail">Email</label>
+                  <div class="input-group mb-2 mr-sm-2">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text" style="width:2.3rem;">@</span></div>
+                    </div>
+                    <input type="text" class="form-control" id="inlineFormInputGroupEmail" placeholder="Email">
+                  </div>
+                    <!-- End Username textfield -->
+
+                  <br/>
+                  <!-- Submit button -->
+                  <div class="mb-3">
+                    <button type="submit" class="btn btn-block btn-primary">Send email</button>
+                  </div>
+                  <!-- End Submit button -->
+                  <div class="text-center mb-3">
+                    <p class="text-muted">Have an account? <a href="signin-simple.html">Signin</a></p>
+                    <p class="text-muted">Get started ! <a href="signin-simple.html">Signup</a></p>
+                  </div>
+                </div>
+              </div>
+<!--         END FORGOT PASSWORD FORM -->
+
+<!--           RESET PASSWORD FORM  -->
+          <div class="col-6">
+            <h4> Reset password form </h4>
+                <br/>
+                <div class="my-3 p-3 bg-grey rounded box-shadow">
+                  <!-- Logo -->
+                  <div class="text-center">
+                    <a href="<%= documentation_auth_path %>" aria-label="Space">
+                      <img class="mb-3" src="https://s3-eu-west-1.amazonaws.com/tpd/logos/4bde3b280000640005068d7d/0x0.png" alt="Logo" width="60" height="60">
+                    </a>
+                  </div>
+                  <!-- End Logo -->
+
+                  <!-- Title -->
+                  <div class="text-center mb-4">
+                    <h1 class="h3 mb-0">Reset your password</h1>
+                    <br/>
+                    <p>Please fill out the form to reset your password.</p>
+                  </div>
+                  <!-- End Title -->
+                  <br/>
+                  <!-- Username textfield -->
+                  <label class="sr-only" for="inlineFormInputGroupEmail">Email</label>
+                  <div class="input-group mb-2 mr-sm-2">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text" style="width:2.3rem;">@</span></div>
+                    </div>
+                    <input type="text" class="form-control" id="inlineFormInputGroupEmail" placeholder="Email">
+                  </div>
+                    <!-- End Username textfield -->
+                  <!-- Password field -->
+                  <label class="sr-only" for="inlineFormInputPassword">Password</label>
+                  <div class="input-group mb-2 mr-sm-2">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text" style="width:2.3rem;">#</div>
+                    </div>
+                    <input type="password" class="form-control" id="inlineFormInputPassword" placeholder="Password">
+                  </div>
+                  <!-- End Password field -->
+                  <!-- Confirm Password field -->
+                  <label class="sr-only" for="inlineFormInputPassword">Confirm Password</label>
+                  <div class="input-group mb-2 mr-sm-2">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text" style="width:2.3rem;">#</div>
+                    </div>
+                    <input type="password" class="form-control" id="inlineFormInputPassword" placeholder="Confirm Password">
+                  </div>
+                  <!-- End Confirm Password field -->
+                  <br/>
+                  <!-- Submit button -->
+                  <div class="mb-3">
+                    <button type="submit" class="btn btn-block btn-primary">Reset password</button>
+                  </div>
+                  <!-- End Submit button -->
+              </div>
+<!--         END RESET PASSWORD FORM -->
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
