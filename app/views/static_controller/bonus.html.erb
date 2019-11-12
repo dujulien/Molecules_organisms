@@ -1,0 +1,47 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-2 col-md-2 col-xl-2 bd-sidebar">  
+      <div class="row">
+        <div class="col-12">
+          <%= render "static_controller/menu" %>
+        </div>
+      </div>
+    </div>
+    <div class="col-9 col-md-9 col-xl-9 py-md-3 pl-md-5 bd-content" role="main">
+      <div class="top-margin">
+
+<!--           MENU  -->
+        <div class="row">
+          <div class="col-12">
+            <h4> Menu template </h4>
+            <br/>
+<!--           MENU TEMPLATE  -->
+              <div class="container">
+                <div class="nav flex-column nav-pills menu " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <h5 class="nav-link"> Organisms </h5>
+                    <a class="nav-link" id="v-pills-navbar-tab" data-toggle="pill" href="<%= documentation_navbar_path %>" role="tab" aria-controls="v-pills-home" aria-selected="true">Navbar</a>
+                    <a class="nav-link" id="v-pills-footer-tab" data-toggle="pill" href="<%= documentation_footer_path %>" role="tab" aria-controls="v-pills-profile" aria-selected="true">Footer</a>
+                    <a class="nav-link" id="v-pills-bannersm-tab" data-toggle="pill" href="<%= documentation_bannersm_path %>" role="tab" aria-controls="v-pills-settings" aria-selected="true">Small banner</a>
+                    <a class="nav-link" id="v-pills-bannerlg-tab" data-toggle="pill" href="<%= documentation_bannerlg_path %>" role="tab" aria-controls="v-pills-settings" aria-selected="true">Large banner</a>
+                    <a class="nav-link" id="v-pills-card-tab" data-toggle="pill" href="<%= documentation_cards_path %>" role="tab" aria-controls="v-pills-settings" aria-selected="true">Cards</a>
+                    <br/>
+                    <h5 class="nav-link"> Template </h5>
+                    <a class="nav-link" id="v-pills-comments-tab" data-toggle="pill" href="<%= documentation_comments_path %>" role="tab" aria-controls="v-pills-settings" aria-selected="true">Comments</a>
+                    <a class="nav-link" id="v-pills-auth-tab" data-toggle="pill" href="<%= documentation_auth_path %>" role="tab" aria-controls="v-pills-messages" aria-selected="true">Authentication form</a>
+                    <a class="nav-link" id="v-pills-resources-tab" data-toggle="pill" href="<%= documentation_resources_path %>" role="tab" aria-controls="v-pills-settings" aria-selected="true">Resources show</a>
+                    <a class="nav-link" id="v-pills-events-tab" data-toggle="pill" href="<%= documentation_events_path %>" role="tab" aria-controls="v-pills-settings" aria-selected="true">Events show</a>
+                    <a class="nav-link" id="v-pills-bonus-tab" data-toggle="pill" href="<%= documentation_bonus_path %>" role="tab" aria-controls="v-pills-settings" aria-selected="true">BONUS</a>
+                </div>
+          </div>
+<!--           END MENU TEMPLATE  -->
+       </div>
+<!--           MENU END -->
+<br/>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
