@@ -68,6 +68,11 @@ div.top-margin {
 	font-weight: bold;
 }
 
+.lead-title-xsm{
+	font-size: 16pt;
+	font-weight: bold;
+}
+
 #title-show{
 	padding: 10rem 15rem 10rem 10rem;
 }
@@ -121,8 +126,8 @@ h5.card-title {
 }
 
 div.descr {
-	padding-top: 8rem;
-	padding-bottom: 5rem;
+	padding-top: 7rem;
+	padding-bottom: 7rem;
 }
 
 .listing-panel {
@@ -135,11 +140,25 @@ div.descr {
     box-sizing: border-box;
 }
 
-
 .sticky-listing-panel {
     position: absolute;
     top: 0;
     width: 100%;
     max-height: inherit;
     height: 66px;
+}
+
+.sep-bar {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-top:1rem;
+	margin-bottom:1rem;
+	height: 4rem;
+	border-top: 1px solid rgba(0,0,0,.1);
+	border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.lead-right{
+	font-size: 14pt;
+	text-align: right;
 }
